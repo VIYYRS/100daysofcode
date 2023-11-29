@@ -1,0 +1,75 @@
+header {
+  margin-bottom: 64px;
+}
+
+h1 {
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+  margin: 0;
+}
+
+#description {
+  margin: 12px;
+}
+
+header p {
+  margin: 20px;
+}
+
+a {
+  padding: 0 48px;
+  background-color: #a7014e;
+  color: white;
+  border: 1px solid rgb(167, 1, 78);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 24px;
+  margin: 0;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: rgb(180, 12, 90);
+  text-decoration: none;
+}
+
+ol {
+  list-style: none;
+  width: 500px;
+  margin: 36px auto;
+  padding: 0;
+}
+
+li {
+  padding: 16px;
+  background-color: rgb(223, 136, 124);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+  margin: 32px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+} 
+
+/* li {
+  list-style: none;
+  list-style: square;
+} */
+
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: 'Oswald', sans-serif;
+}
+
+main p {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}
+
+.highlight-goal {
+  background-color: rgb(224, 124, 111);
+}
