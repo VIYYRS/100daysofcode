@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge</title>
+  <link rel="stylesheet" href="challenge.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <main>
+    <form action="">
+      <section>
+        <h2>How can we help you?</h2>
+        <ul>
+          <li>
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name">
+          </li>
+          <li>
+            <label for="email">Your E-Mail Address</label>
+            <input type="email" name="email" id="email">
+          </li>
+          <li>
+            <label for="phone">Your Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+          </li>
+          <li>
+            <label for="msg">Your Message</label>
+            <textarea name="msg" id="msg"></textarea>
+          </li>
+          <li>
+            <label for="find">How did you find us?</label>
+            <select name="find" id="find">
+              <option value="web">Web Search</option>
+              <option value="web">Ads</option>
+              <option value="web">Other</option>
+            </select>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>How should we reply?</h2>
+        <ul class="replyAndTerms">
+          <li>
+            <div class="item-checkbox">
+              <input type="checkbox" name="reply" id="reply-call" value="call">
+              <label for="reply-call">Call me</label>
+            </div>
+            <div class="item-checkbox">
+              <input type="checkbox" name="reply" id="reply-email" value="email">
+              <label for="reply-email">Send me an email</label>
+            </div>
+            <div class="item-checkbox">
+              <input type="checkbox" name="reply" id="reply-donot" value="noreply">
+              <label for="reply-donot">Don't reply</label>
+            </div>
+          </li>
+          <li class="item-checkbox">
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">Accept Terms</label>
+          </li>
+        </ul>
+      </section>
+      <section class="buttons">
+        <div class="buttons-right">
+          <button type="reset">Clear</button>
+          <button type="submit">Submit</button>
+        </div>
+      </section>
+    </form>
+  </main>
+</body>
+</html>

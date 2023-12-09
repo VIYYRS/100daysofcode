@@ -1,0 +1,92 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  width: 60%;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+main h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+main label {
+  display: block;
+}
+
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+main ul li {
+  margin-bottom: .5rem;
+}
+
+main input,
+main textarea,
+main select {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  border: 1px solid #dfdfdf;
+  margin-top: .5rem;
+  font: inherit;
+  outline: none;
+  box-sizing: border-box;
+}
+main textarea {
+  resize: none;
+  height: 10rem;
+}
+
+main section:nth-of-type(2) {
+  margin-top: 2rem;
+}
+
+main .replyAndTerms {}
+
+main .replyAndTerms .item-checkbox {
+  display: flex;
+}
+main .replyAndTerms .item-checkbox input {
+  width: auto;
+  margin: 0;
+  margin-right: .5rem;
+}
+
+main .buttons {
+  margin: 1rem 0;
+}
+main .buttons .buttons-right {
+  text-align: right;
+}
+
+main button {
+  padding: .3rem 1.3rem;
+  font: inherit;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+}
+main button[type="reset"] {
+  border-color: blue;
+}
+main button[type="submit"] {
+  background-color: blue;
+  color: white;
+}
